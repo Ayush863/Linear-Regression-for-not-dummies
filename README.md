@@ -10,7 +10,7 @@ Assumptions of the Ordinary Least Squares regression
 4. Homoscedasticity
 Programming the OLS Regression
 ---
-> Linear regression might be the first "model" almost every online course teaches due to its simplicity, but its elegance can not be undermined. There are a set of conditions that a Linear regressor assumes to be true and these are usually misunderstood. The assumptions and any tests for checking the assumptions is mentioned in detail below.
+### Linear regression might be the first "model" almost every online course teaches due to its simplicity, but its elegance can not be undermined. There are a set of conditions that a Linear regressor assumes to be true and these are usually misunderstood. The assumptions and any tests for checking the assumptions is mentioned in detail below.
 
 # Assumptions
 ## 1. Functional form
