@@ -36,10 +36,10 @@ If the residuals are not independent, it may be due to the following reasons:
 First assumption is false, i.e., data is not linear. If the features aren’t linearly related to the response variable, the non-linearity shows up as a pattern in the residuals.
 One or more important features (explanatory variables, X_i’s) are missing. That is, there was some relation between that missing variable and ‘y’ that appears in the residuals.
 Multicollinearity; If two of the features (explanatory variables, X_i’s) are linearly related, the model’s coefficients become unstable. For extreme multicollinearity, fitting the model becomes impossible as the model’s least squares solver starts to throw infinities.
-Tests for verifying independence of residuals
-If the data is time-series use the Dubin-Watson test (a.k.a lag-1 autocorrelation test) to measure the degree of correlation between a residual and its previous residual.
+#### Tests for verifying independence of residuals
+If the data is time-series, use the Dubin-Watson test (a.k.a lag-1 autocorrelation test) to measure the degree of correlation between a residual and its previous residual.
 
-If the data is non time-series then try the following tests:
+If the data is non time-series, then try the following tests:
 
 Relation between residuals and predicted values
 
