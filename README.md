@@ -26,7 +26,7 @@ Visually inspect the plot of y against individual features (X_i’s).
 -Calculate Pearson Correlation Coefficient (r).
 Pearson Correlation Coefficient is a number between -1 and 1 denoting the strength and direction of linearity of the two variables. For Linear Regression we want the values to be as close to 1/-1 as possible. (r = 0 denotes no correlation, r>0.5 is usually good enough).
 ## 2. IID of residuals
-### Independence of Residuals
+### 2a. Independence of Residuals
 #### Requirement
 Residuals need to be independent random variables for our model’s performance to be optimal. Since residual errors are a part of the data the model was unable to explain, non independent residuals mean that there is some underlying pattern in the data that the model could not learn during its training. Thus making the model sub-optimal.
 
@@ -39,17 +39,17 @@ Multicollinearity; If two of the features (explanatory variables, X_i’s) are l
 #### Tests for verifying independence of residuals
 If the data is time-series, use the Dubin-Watson test (a.k.a lag-1 autocorrelation test) to measure the degree of correlation between a residual and its previous residual.
 
-If the data is non time-series, then try the following tests:
+#### If the data is non time-series, then try the following tests:
 
-Relation between residuals and predicted values
+- Relation between residuals and predicted values
 
 Visual inspection of the plot of residuals against response variable. Any trend in some portion of the response variable’s values shows less reliable predictions.
 
-Relation between residuals and independent variables
+- Relation between residuals and independent variables
 
 Visual inspection of the plot of residuals against individual independent variables. Usually, due to missing important explanatory variable(s).
 
-Identical probability distributions of Residuals
+### 2b. Identical probability distributions of Residuals
 Desirable property. If not satisfied, some tests like the F-test might fail.
 
 ## 3. Normality of Residuals
