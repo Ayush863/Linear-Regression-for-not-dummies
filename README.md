@@ -69,4 +69,4 @@ Skewness and Kurtosis (ideally 0 and 3). P-value of <= 0.05 on the Jarque Bera T
 Homoscedasticity means constant variance. In the context of OLS Regression it means that the residuals must have a constant variance throughout the dataset.
 
 ## Linear Regression from Scratch
-After the assumptions are understood, we can go on and make a Linear regressor of our own. This repository contains four different implementations of Linear Regression from scratch. Firstly using vanilla Python, then with the the help of Statmodels package of python, and then with the help of two different frameworks TensorFlow and Pytorch.
+After the assumptions are understood, we can go on and make a Linear regressor of our own. This repository contains four different implementations of Linear Regression from scratch. Firstly using vanilla Python (with numpy), then with the the help of Statmodels package of python, and then with the help of two different frameworks TensorFlow and Pytorch.
